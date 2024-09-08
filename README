@@ -1,0 +1,15 @@
+# What?
+This is just two lines of code to make your webside background a 360 image that can be moved around.
+
+#### Add this to the head of your HTML
+```html
+<script src="https://raw.githubusercontent.com/chadc00per/360viewer-release/main/360background.min.js"></script>
+```
+
+#### Specify Your Equirectangular Image with ID#image4360viewer in your HTML
+```html
+<img id="image4360viewer" src="yourimage.jpg" alt="myimage">
+```
+
+##### Notes:
+The 360 player sits on a z-index of 3, so make sure any other elements are above it.
